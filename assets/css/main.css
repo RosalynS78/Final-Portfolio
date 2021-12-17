@@ -107,6 +107,12 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+		.hidden {
+			display: none;
+		}
+		
+		
+					
 
 /* Spinner */
 
@@ -2345,6 +2351,7 @@ border-radius: 50%;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
 					}
+				
 
 		@media screen and (max-width: 736px) {
 
@@ -2765,12 +2772,16 @@ border-radius: 50%;
 			transform: translateY(100%);
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 768px) {
 
 			#contact .box {
 				padding: 1.5em 1.5em 2em 1.5em;
 			}
-
+			.snowboardvid {
+				display: flex;
+				flex-direction: column;
+				justify-items: center;
+				align-content: center;
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2779,6 +2790,29 @@ border-radius: 50%;
 				padding: 1em 1em 2em 1em;
 			}
 
-
+			@media screen and (max-width: 480px) {
+				.flip-box {
+					display: block;
+					padding-top:30px;
+					padding-left: 25px;
+				}
+				.snowboardvid {
+					display: flex;
+					flex-direction: column;
+					justify-items: center;
+					align-content: center;
+			     
+				}
+			    .hidden  {
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					text-indent: 5px;
+				
+				}
+			
+			}
+				
+				
 }
 			
